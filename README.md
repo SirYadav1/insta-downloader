@@ -18,7 +18,7 @@ Before using this bot, you will need:
    Clone the GitHub repository
    
    ```bash
-   git clone https://github.com/Siryadav/insta-downloader.git
+   git clone https://github.com/SirYadav1/insta-downloader.git
    ```
 
 2. **Get Your Bot Token**:
