@@ -1,49 +1,43 @@
-# Instagram Video Downloader Bot
+# 📸 Instagram Video Downloader Bot
 
-This is a simple **Telegram bot** that allows you to download **Instagram videos** by sending an Instagram link. The bot takes your Instagram URL and provides you with a download link.
+A simple Telegram bot to download Instagram videos by sending a link.
 
-### Features:
-- **Instagram Video Downloader**: Send an Instagram video URL and get a custom download link.
-- **Simple Command**: Just type `/start` to get started.
-- **Fast Processing**: Converts Instagram links into downloadable content quickly.
+## Features
 
-### Prerequisites:
-Before using this bot, you will need:
-- A **Telegram Bot Token** (Get it from [BotFather](https://core.telegram.org/bots#botfather)).
-- **PHP** installed on your system (Version 7.0 or higher).
+- Download Instagram videos via URL
+- Fast and lightweight
+- Error handling for private/deleted posts
+- Works on any platform (PHP)
 
-### Setup Instructions:
+## Setup
 
-1. **Clone the Repository** :
-   Clone the GitHub repository
-   
+1. Clone the repo
    ```bash
    git clone https://github.com/SirYadav1/insta-downloader.git
+   cd insta-downloader
    ```
 
-2. **Get Your Bot Token**:
+2. Configure your bot token in the config file
 
-Go to BotFather on Telegram.
+3. Run the bot
+   ```bash
+   php bot.php
+   ```
 
-Create a new bot and copy the bot token you get.
+## How It Works
 
+1. Send an Instagram video link to the bot
+2. Bot fetches the video
+3. Bot sends you the downloadable link
 
-3. **Set Up the Bot In the config.php file**:
+## Disclaimer
 
-Open the config.php file.
+For educational purposes only. Respect Instagram's Terms of Service.
 
-Find this line in the file:
+## License
 
-```bash
-$token = "YOUR_BOT_TOKEN";  // Replace with your Telegram Bot token
-```
-Replace YOUR_BOT_TOKEN with your actual Telegram bot token you got from BotFather.
+MIT License
 
+## Author
 
-
-4. **Run the Script**:
-
-Run the script with PHP:
-```bash
-php insta.php
-```
+**Sundram Yadav** — [GitHub](https://github.com/SirYadav1)
